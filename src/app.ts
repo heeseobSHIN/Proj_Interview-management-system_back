@@ -44,11 +44,11 @@ app.post("/signUp/post", function(req, res){
   //const uData: uJson = JSON.parse(req.body);
   
   //mysql 중복확인 후 send 출력
-  if(){
-  res.send('<h1>회원가입이 완료되었습니다.</h1>');
-  }else{
-  res.send('<h1>회원가입 실패</h1>');
-  }
+//   if(){
+//   res.send('<h1>회원가입이 완료되었습니다.</h1>');
+//   }else{
+//   res.send('<h1>회원가입 실패</h1>');
+//   }
 });
 
 app.listen(port, () => {
